@@ -1,8 +1,10 @@
 # Isolumia-Simple
 Simple Dead by Daylight Unlocker
 
-## If the Unlocker doesn't open install .NET 8.0 SDK 
+## Requirements
+.NET 8 SDK <br>
+https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
-
-https://discord.gg/cookingclub
+## Socials
+https://discord.gg/cookingclub <br>
 https://cookingclub.xyz
