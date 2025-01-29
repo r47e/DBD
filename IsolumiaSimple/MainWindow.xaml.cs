@@ -11,7 +11,7 @@ namespace IsolumiaSimple
     {
         private Fiddler Fiddler;
         private ObservableObject ObservableObject;
-       // private int _prestigeLevel = 100;  // Default value - Doesn't auto change it in the file
+        private int _prestigeLevel = 100;  // Default value - Doesn't auto change it in the file
 
         public MainWindow()
         {
@@ -21,7 +21,7 @@ namespace IsolumiaSimple
             ObservableObject = new ObservableObject();
         }
 
-        /* public int PrestigeLevel
+         public int PrestigeLevel
         {
             get { return _prestigeLevel; }
             set
@@ -33,7 +33,7 @@ namespace IsolumiaSimple
                     UpdatePrestigeInJson();
                 }
             }
-        } */
+        } 
 
         private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
@@ -41,7 +41,7 @@ namespace IsolumiaSimple
         }
 
 
-        /* private void UpdatePrestigeInJson()
+         private void UpdatePrestigeInJson()
         {
             string getallPath = Path.Combine(Fiddler.executablePath, "lib", "Bloodweb.json");
             if (File.Exists(getallPath))
@@ -61,7 +61,7 @@ namespace IsolumiaSimple
                                   MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
-        } */
+        } 
 
         public event PropertyChangedEventHandler PropertyChanged;
 

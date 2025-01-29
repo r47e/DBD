@@ -72,7 +72,6 @@
                 discord.gg/cookingclub"
                 TextAlignment="Center" />
 
-            <!--
             <StackPanel Margin="78,177,80,108" Orientation="Horizontal">
                 <TextBlock Text="Prestige: " VerticalAlignment="Center" Foreground="White" FontWeight="SemiBold" FontSize="13" FontFamily="Bahnschrift Light" Margin="4,2,0,0" Width="53"/>
 
@@ -89,7 +88,6 @@
              BorderThickness="1"
              VerticalAlignment="Center" />
             </StackPanel>
-            -->
 
 
 
