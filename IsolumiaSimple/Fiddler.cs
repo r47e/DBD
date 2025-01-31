@@ -237,7 +237,7 @@ namespace IsolumiaSimple
 
 
             }
-            if (oSession.uriContains("dbd-player-card/set"))
+            if (oSession.uriContains("dbd-player-card/set")) // todo: fix banners/badges not equipping
             {
                 if (Window.MarketConfig == true)
                 {
