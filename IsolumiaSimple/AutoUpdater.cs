@@ -11,7 +11,7 @@ namespace IsolumiaSimple
 {
     internal static class VersionInfo
     {
-        public static string CurrentVersion = "1.2.3"; // Do not change this value if you want to be notified about updates
+        public static string CurrentVersion = "1.2.4"; // Do not change this value if you want to be notified about updates
     }
 
     internal class AutoUpdater
