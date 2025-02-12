@@ -237,17 +237,18 @@ namespace IsolumiaSimple
 
 
             }
-            if (oSession.uriContains("dbd-player-card/set")) // todo: fix banners/badges not equipping
+            if (oSession.uriContains("api/v1/dbd-player-card"))
             {
-                if (Window.MarketConfig == true)
+                if (oSession.url.EndsWith("/set"))
                 {
                     oSession.utilCreateResponseAndBypassServer();
-
-                    oSession.oFlags["x-replywithfile"] = Path.Combine(executablePath, "lib", "Cards.json");
-                    return;
+                    var body = oSession.GetRequestBodyAsString();
+                    oSession.utilSetResponseBody(body);
                 }
-                    
-                  
+                if (oSession.url.EndsWith("/get"))
+                    {
+                        oSession.utilCreateResponseAndBypassServer();
+                    }
             }
 
         }

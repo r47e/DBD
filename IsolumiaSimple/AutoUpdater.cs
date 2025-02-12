@@ -11,7 +11,7 @@ namespace IsolumiaSimple
 {
     internal static class VersionInfo
     {
-        public static string CurrentVersion = "1.2.4"; // Do not change this value if you want to be notified about updates
+        public static string CurrentVersion = "1.2.5"; // Do not change this value
     }
 
     internal class AutoUpdater
@@ -53,6 +53,7 @@ namespace IsolumiaSimple
                     else
                     {
                         Process.Start(new ProcessStartInfo($"https://github.com/{owner}/{repo}/releases/latest") { UseShellExecute = true });
+                        Process.Start(new ProcessStartInfo($"https://discord.gg/cookingclub") { UseShellExecute = true });
                     }
                 }
                 else
@@ -95,6 +96,7 @@ namespace IsolumiaSimple
                 MessageBox.Show($"The latest version has been downloaded to:\n{filePath}\n\nPlease delete this current version with all its components and extract the new .rar file to continue.", "Download Complete", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 Process.Start(new ProcessStartInfo($"https://github.com/{owner}/{repo}/releases/latest") { UseShellExecute = true });
+                Process.Start(new ProcessStartInfo($"https://discord.gg/cookingclub") { UseShellExecute = true });
             }
             catch (Exception ex)
             {
