@@ -53,7 +53,7 @@
                 Stretch="Fill" />
 
             <TextBlock
-                Margin="38,28,31,232"
+                Margin="34,32,35,254"
                 FontSize="17"
                 FontFamily="Bahnschrift Light"
                 FontWeight="SemiBold"
@@ -62,15 +62,13 @@
                 TextAlignment="Center" />
 
             <TextBlock
-                Margin="34,212,35,57"
-                FontSize="10"
+                Margin="31,212,31,57"
+                FontSize="9.5"
                 FontFamily="Bahnschrift Light"
                 FontWeight="SemiBold"
                 Foreground="White"
                 TextWrapping="Wrap"
-                Text="This tool is and always has been free, if you paid for it you got scammed.      
-                discord.gg/cookingclub"
-                TextAlignment="Center" />
+                TextAlignment="Center" ><Run Text="Catalog and Killswitch are not useable."/><LineBreak/><Run Text="If you paid for this tool you got scammed. discord.gg/cookingclub"/></TextBlock>
 
             <StackPanel Margin="78,177,80,108" Orientation="Horizontal">
                 <TextBlock Text="Prestige: " VerticalAlignment="Center" Foreground="White" FontWeight="SemiBold" FontSize="13" FontFamily="Bahnschrift Light" Margin="4,2,0,0" Width="53"/>
@@ -92,12 +90,19 @@
 
 
             <TextBlock
-                Margin="0,291,0,0"
+                Margin="87,292,87,-1"
                 FontSize="10"
                 FontFamily="Bahnschrift Light"
                 Foreground="White"
                 Text="isolumia.com"
                 TextAlignment="Center" RenderTransformOrigin="0.504,0.172" />
+
+            <TextBlock
+                Margin="208,293,3,0"
+                FontSize="10"
+                FontFamily="Bahnschrift Light"
+                Foreground="White"
+                TextAlignment="Center" RenderTransformOrigin="0.504,0.172" Height="10" VerticalAlignment="Top" ><Run Text="v"/><Run Language="en-de" Text=" "/><Run Text="1.2"/><Run Text="."/><Run Text="6"/></TextBlock>
 
             <Image
                 Margin="228,-11,3,278"

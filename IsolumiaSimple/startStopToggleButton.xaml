@@ -4,7 +4,7 @@
 
     <Style x:Key="startStopToggleButton" TargetType="ToggleButton">
         <!-- Background set to a slightly lighter shade of purple for default state -->
-        <Setter Property="Background" Value="#06979F"/>
+        <Setter Property="Background" Value="#03757B"/>
         <Setter Property="Foreground" Value="#ffffff"/>
         <!-- White text for contrast -->
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
@@ -29,7 +29,7 @@
                         </Trigger>
 
                         <Trigger Property="IsChecked" Value="True">
-                            <Setter Property="Background" Value="#03757B"/>
+                            <Setter Property="Background" Value="#06979F"/>
                             <Setter Property="Foreground" Value="#E1BEE7"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
