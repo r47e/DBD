@@ -9,5 +9,5 @@ https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 https://github.com/crexpy/Isolumia-Simple-SSL
 
 ## Socials
-https://discord.gg/cookingclub <br>
+[![Join our Discord](https://invidget.switchblade.xyz/ZBsJ834qxj)](https://discord.gg/ZBsJ834qxj) <br>
 https://cookingclub.xyz
