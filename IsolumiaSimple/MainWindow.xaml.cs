@@ -11,7 +11,7 @@ namespace IsolumiaSimple
     {
         private Fiddler Fiddler;
         private ObservableObject ObservableObject;
-        private int _prestigeLevel = 100;  // Default value - Doesn't auto change it in the file
+        private int _prestigeLevel = 100;  // Default display value - Doesn't auto change it in the file
 
         public MainWindow()
         {
